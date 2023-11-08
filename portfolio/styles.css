@@ -1,0 +1,48 @@
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+   margin: 7rem;
+   background-color: #00728A;
+   padding: 4rem
+}
+nav {
+    background-color: black;
+    text-align: center;
+    width:80%
+}
+nav>body {
+    background-color: #00728A;
+}
+nav>a:hover {
+    border-color: #00728A;
+    color:#00728A;
+    font-weight: 800;
+}
+section {
+    background-color: black;
+    width:80%;
+}
+section>p {
+    color: white;
+}
+section>h2 {
+    color:#00728A;
+}
+img {
+    padding: 2rem;
+    max-width: 70%;
+}
+h2, p {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.about>img {
+    display:inline-block;
+    width: 50%;
+    max-width: 20%;
+}
+.about>p {
+     display: inline-block;
+     width:50%;
+}

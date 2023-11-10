@@ -1,6 +1,6 @@
 body {
    font-family: Arial, Helvetica, sans-serif; 
-   margin: 7rem;
+   margin: 0 7rem;
    background-color: #00728A;
    padding: 4rem
 }
@@ -20,6 +20,7 @@ nav>a:hover {
 section {
     background-color: black;
     width:80%;
+    justify-content: center;
 }
 section>p {
     color: white;
@@ -27,22 +28,60 @@ section>p {
 section>h2 {
     color:#00728A;
 }
-img {
-    padding: 2rem;
-    max-width: 70%;
-}
+
 h2, p {
     padding: 1rem;
     margin: 1rem;
     text-align: center;
+}
+header {
+    font-size:1.5rem;
+
 }
 
 .about>img {
     display:inline-block;
     width: 50%;
     max-width: 20%;
+    vertical-align: middle;
 }
-.about>p {
+@media (min-width:800px)
+{   .about>p {
      display: inline-block;
      width:50%;
+     text-align: center;
+     position: relative;
+     bottom: 40px;
+     vertical-align: middle;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+nav {
+    margin: auto;
+    
+}
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+}
+section{
+    margin: auto;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav>a {
+    color:#00728A;
+}
+.projects>p>a {
+    color: aliceblue;
 }
